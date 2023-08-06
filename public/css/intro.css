@@ -1,0 +1,17 @@
+:root {
+  --test: 1px solid red;
+  --shadow-light: 4px 4px 12px 2px lightgray;
+  --shadow-med: 4px 4px 12px 2px darkgray;
+  --shadow-high: 4px 4px 12px 2px gray;
+  --btn-success: #27a727;
+}
+
+.intro {
+  width: 95%;
+  display: block;
+  margin: 30px auto;
+  background-color: whitesmoke;
+  padding: 8px 25px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-light);
+}
