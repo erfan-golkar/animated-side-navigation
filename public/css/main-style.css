@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: "Vazir";
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #e4eaee;
+  color: #111;
+  margin: 0;
+}
