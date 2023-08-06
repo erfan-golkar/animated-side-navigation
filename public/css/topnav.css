@@ -1,0 +1,16 @@
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  display: flex;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #111;
+  display: block;
+  padding: 12px 18px;
+}
