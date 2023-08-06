@@ -1,6 +1,7 @@
 .topnav {
   list-style-type: none;
-  margin: 0;
+  margin: 12px;
+  border-radius: 6px;
   padding: 0;
   background-color: lightgray;
   display: flex;
