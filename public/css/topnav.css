@@ -13,4 +13,21 @@
   color: #111;
   display: block;
   padding: 12px 18px;
+  transition: 0.2s;
+}
+
+.topnav a::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid navy;
+  transform: scaleX(0);
+  transition: 0.2s;
+}
+
+.topnav a:hover::after {
+  transform: scaleX(1);
+}
+
+.topnav a:hover {
+  color: navy;
 }
