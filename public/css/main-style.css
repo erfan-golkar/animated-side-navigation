@@ -1,3 +1,11 @@
+:root {
+  --test: 1px solid red;
+  --shadow-light: 4px 4px 12px 2px lightgray;
+  --shadow-med: 4px 4px 12px 2px darkgray;
+  --shadow-high: 4px 4px 12px 2px gray;
+  --btn-success: #27a727;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Vazir";
@@ -8,4 +16,17 @@ body {
   background-color: #e4eaee;
   color: #111;
   margin: 0;
+}
+
+/* intro imgs */
+.intro-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-imgs > img {
+  width: 520px;
+  margin: 12px;
+  border-radius: 4px;
+  box-shadow: var(--shadow-light);
 }
