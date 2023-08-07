@@ -5,6 +5,11 @@
   padding: 0;
   background-color: lightgray;
   display: flex;
+  justify-content: space-between;
+}
+
+.topnav > div {
+  display: flex;
 }
 
 .topnav a {

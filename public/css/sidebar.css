@@ -1,0 +1,16 @@
+.topnav .menu-btn span {
+  display: block;
+  margin: 5px 0;
+  background-color: #575757;
+  width: 30px;
+  height: 4px;
+  transition: 0.3s;
+}
+
+.topnav .menu-btn:hover::after, .topnav .menu-btn::after {
+  border: none;
+}
+
+.topnav .menu-btn:hover span {
+  background-color: navy;
+}
